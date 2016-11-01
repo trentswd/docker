@@ -5,6 +5,7 @@ RUN apk add -U ca-certificates
 VOLUME /data
 VOLUME /etc/aria2
 EXPOSE 6800
+EXPOSE 25236
 
 COPY aria2c /bin/aria2c
 
